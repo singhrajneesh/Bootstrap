@@ -1,191 +1,214 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <title>Company Name</title>
-  </head>
-  <body>
-    <div class="container">
-        <form class="form-inline justify-content-end">
-            <input class=" mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button type="submit">Search</button>
-        </form>
-        <nav class="navbar navbar-expand-lg sticky-top navbar-light">
-            <a class="navbar-brand" href="#"><img src="./images1/logo.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <title>Company Name</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <!--This form is to create search bar-->
+    <form class="form-inline justify-content-end">
+      <input class=" mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button type="submit">Search</button>
+    </form>
+
+    <!-- This is to create navigation bar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+      <a class="navbar-brand" href="#"><img src="./images1/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
-              <div class="navbar-nav ">
-                <a class="nav-item nav-link active px-4" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link px-4" href="#">Features</a>
-                <a class="nav-item nav-link px-4" href="#">Pricing</a>
-                <a class="nav-item nav-link disabled px-4" href="#">Disabled</a>
-              </div>
-            </div>
-        </nav>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="./images1/steps.jpeg" height="600px" alt="First slide">
-                  <div class="carousel-caption d-none d-md-block">
-                  <h1 class="text-sm-left col-lg-6 text-dark">Maximize and optimize</h1>
-                  <p class="col-sm-8 text-sm-left text-white">With the advances in technology and changing consumer behavior, revenue generation can be a challenge and an opportunity.</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./images1/domino.jpg" height="600px" alt="Second slide">
-                  <div class="carousel-caption d-none d-md-block">
-                  <h1 class="text-sm-left col-lg-6 ">Are you losing out to disrupters?</h1>
-                  <p class="col-sm-8 text-sm-left">Industries are being disrupted by more agile players every day. Can you avoid being overtaken by them?
-                  </p>
-                  
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./images1/enterprise.jpg" height="600px" alt="Third slide">
-                  <div class="carousel-caption d-none d-md-block">
-                  <h1 class="text-sm-left col-lg-6 text-dark">Enterprise Agile</h1>
-                  <p class="col-sm-8 text-sm-left ">We have a post-modern approach to IT services.<br>Find out what makes it different.
-                  </p>
-                 
-                  </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-item nav-link active px-4" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link px-4" href="#">Features</a>
+          <a class="nav-item nav-link px-4" href="#">Pricing</a>
+          <a class="nav-item nav-link disabled px-4" href="#">Disabled</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- This div is used to make carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">    <!-- This div gives the image and written part each item of carousel -->
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./images1/steps.jpeg" height="600px" alt="First slide">
+          <div class="carousel-caption">
+            <h1 class="text-sm-left col-lg-6 text-dark">Maximize and optimize</h1>
+            <p class="col-sm-8 text-sm-left text-white">With the advances in technology and changing consumer behavior, revenue generation can be a challenge and an opportunity.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./images1/domino.jpg" height="600px" alt="Second slide">
+          <div class="carousel-caption">
+            <h1 class="text-sm-left col-lg-6 ">Are you losing out to disrupters?</h1>
+            <p class="col-sm-8 text-sm-left">Industries are being disrupted by more agile players every day. Can you avoid being overtaken by them?
+            </p>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./images1/enterprise.jpg" height="600px" alt="Third slide">
+          <div class="carousel-caption">
+            <h1 class="text-sm-left col-lg-6 text-dark">Enterprise Agile</h1>
+            <p class="col-sm-8 text-sm-left ">We have a post-modern approach to IT services.<br>Find out what makes it different.
+            </p>
+          </div>
+        </div>
+        <!-- This is used to move the elemets of carousel -->
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-          </div>
       </div>
-      <h1 class="pt-3 pb-3">Perspective</h1>
-      <div class="row">
-          <div class="card bg-light col-lg-4">
-              <div class="card-header">Are intelligent apps the future of mobile?</div>
-              <div class="card-body mx-0">
-              <img class="d-block w-100 m-0" src="./images1/brain.jpg" alt="APP">
-              </div>
-          </div>
-          <div class="card bg-light col-lg-4" >
-              <div class="card-header"><h4>Role of CIOs: Innovate in an ever evolving world</h4></div>
-              <div class="card-body">
-              <p class="card-text">Read our perspective on how CIOs can influence the agility & overall growth of the organization.</p>
-          </div>
-          </div>
-          <div class="card bg-light mb-0 col-lg-4">
-              <div class="card-header"><h4>The journey to digital transformation</h4></div>
-              <div class="card-body">
-                <p class="card-text">Embrace the changing customer and digital realities and fuel up your digital transformation engine.</p>
-              </div>
+    </div>
+
+    <!-- This part of code handles the middle part of webpage which contains three cards -->
+    <h1 class="pt-3 pb-3">Perspective</h1>
+    <div class="row">
+      <div class="card bg-light col-lg-4">
+        <div class="card-header">Are intelligent apps the future of mobile?</div>
+        <div class="card-body mx-0">
+          <img class="d-block w-100 m-0" src="./images1/brain.jpg" alt="APP">
         </div>
       </div>
+      <div class="card bg-light col-lg-4">
+        <div class="card-header">
+          <h4>Role of CIOs: Innovate in an ever evolving world</h4>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Read our perspective on how CIOs can influence the agility & overall growth of the organization.</p>
+        </div>
+      </div>
+      <div class="card bg-light mb-0 col-lg-4">
+        <div class="card-header">
+          <h4>The journey to digital transformation</h4>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Embrace the changing customer and digital realities and fuel up your digital transformation engine.</p>
+        </div>
+      </div>
+    </div>
 
-      <h1 class="py-3">Success Stories</h1>
-      <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-            <div class="card bg-dark text-white">
-              <img class="card-img img-fluid" src="./images1/clinical.jpg" alt="Card image">
-              <div class="card-img-overlay">
-                <div class="col-sm-4 text-dark back">
-                <h1 class="card-title mt-5">Making clinical trial data come alive</h1>
-                <p class="card-text">A comprehensive cognitive computing framework.</p>
-              </div>
-             </div>
+    <!-- This code will handle the navs with images on the webpage -->
+    <h1 class="py-3">Success Stories</h1>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="card bg-dark text-white">
+          <img class="card-img img-fluid" src="./images1/clinical.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <div class="col-sm-4 text-dark back">
+              <h1 class="card-title mt-5">Making clinical trial data come alive</h1>
+              <p class="card-text">A comprehensive cognitive computing framework.</p>
             </div>
           </div>
+        </div>
+      </div>
       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-          <div class="card bg-dark text-white">
-              <img class="card-img img-fluid" src="./images1/harnessing.jpg" alt="Card image">
-              <div class="card-img-overlay">
-                <div class="col-sm-4 text-dark back">
-                <h1 class="card-title mt-5">Harnessing the power of SharePoint</h1>
-                <p class="card-text">B2B collaboration portal for physicians.</p>
-              </div>
-             </div>
+        <div class="card bg-dark text-white">
+          <img class="card-img img-fluid" src="./images1/harnessing.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <div class="col-sm-4 text-dark back">
+              <h1 class="card-title mt-5">Harnessing the power of SharePoint</h1>
+              <p class="card-text">B2B collaboration portal for physicians.</p>
             </div>
+          </div>
+        </div>
       </div>
       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-          <div class="card bg-dark text-white">
-              <img class="card-img img-fluid" src="./images1/clinical.jpg" alt="Card image">
-              <div class="card-img-overlay">
-                <div class="col-sm-4 text-dark back">
-                <h1 class="card-title mt-5">Unlocking the value in utilities</h1>
-                <p class="card-text">Independent testing and validation.</p>
-              </div>
-             </div>
+        <div class="card bg-dark text-white">
+          <img class="card-img img-fluid" src="./images1/clinical.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <div class="col-sm-4 text-dark back">
+              <h1 class="card-title mt-5">Unlocking the value in utilities</h1>
+              <p class="card-text">Independent testing and validation.</p>
+            </div>
           </div>
+        </div>
       </div>
       <div class="tab-pane fade" id="pills-hot" role="tabpanel" aria-labelledby="pills-hot-tab">
-          <div class="card bg-dark text-white">
-              <img class="card-img img-fluid" src="./images1/clinical.jpg" alt="Card image">
-              <div class="card-img-overlay">
-                <div class="col-sm-4 text-dark back">
-                <h1 class="card-title mt-5">High-touch through high-tech</h1>
-                <p class="card-text">Pixel perfect UI design.</p>
-              </div>
-             </div>
+        <div class="card bg-dark text-white">
+          <img class="card-img img-fluid" src="./images1/clinical.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <div class="col-sm-4 text-dark back">
+              <h1 class="card-title mt-5">High-touch through high-tech</h1>
+              <p class="card-text">Pixel perfect UI design.</p>
+            </div>
           </div>
+        </div>
       </div>
     </div>
+    <!-- This div creates the button of navs -->
     <div class="bg-light">
-          <ul class="nav nav-pills mb-3"  id="pills-tab" role="tablist">
-            <li class="nav-item col-sm-3 px-0">
-            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Making clinical trial data come alive</a>
-            </li>
-            <li class="nav-item col-sm-3 px-0">
-            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Harnessing the power of SharePoint</a>
-            </li>
-            <li class="nav-item col-sm-3 px-0">
-            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Unlocking the value in utilities<br>
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item col-sm-3 px-0">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Making clinical trial data come alive</a>
+        </li>
+        <li class="nav-item col-sm-3 px-0">
+          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Harnessing the power of SharePoint</a>
+        </li>
+        <li class="nav-item col-sm-3 px-0">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Unlocking the value in utilities<br>
              </a>
-            </li>
-            <li class="nav-item col-sm-3 px-0">
-            <a class="nav-link" id="pills-hot-tab" data-toggle="pill" href="#pills-hot" role="tab" aria-controls="pills-hot" aria-selected="false">High-touch through high-tech<br>
+        </li>
+        <li class="nav-item col-sm-3 px-0">
+          <a class="nav-link" id="pills-hot-tab" data-toggle="pill" href="#pills-hot" role="tab" aria-controls="pills-hot" aria-selected="false">High-touch through high-tech<br>
              </a>
-            </li>
-          </ul>
+        </li>
+      </ul>
     </div>
+
+    <!-- This div is used to create vertical nav which contains the videos-->
     <h1 class="py-3">Customer Narratives</h1>
     <div class="row col-lg-12">
-    <div class="tab-content col-lg-4" id="v-pills-tabContent">
-      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><iframe width="400" height="218" src="https://www.youtube.com/embed/lSZm_kMx5rc"></iframe></div>
-      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><iframe width="400" height="218" src="https://www.youtube.com/embed/LabrRE5ElCY" frameborder="10" ></iframe></div>
-      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"><iframe width="400" height="218" src="https://www.youtube.com/embed/966FtAH26R0" frameborder="10"></iframe></div>
-      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-        <h2>ASSA ABLOY</h2>
-        <hr>
-        <p>ASSA ABLOY has been impressed with Nagarro's work for us. The quality of Nagarro's development teams and their sense of responsibility for towards our core business objectives has made it possible for ASSA ABLOY to exceed its goals.</p>
-        <p>Ardeshir Nahani, R&D manager,ASSA ABLOY - world's largest lock manufacturer</p></div>
-    </div>
-    <div class="col-lg-3">
-    <div class="nav flex-column nav-pills pl-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Lufthansa</a>
-        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Ecova</a>
-        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Mitsubishi Chemicals</a>
-        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">ASSA ABLOY</a>
-    </div>
-    </div>
-    <div class="card border-dark mb-3 container col-sm-5">
-      <div class="card-header"><h3>Satisfaction Scores</h3></div>
+      <div class="tab-content col-lg-4" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><iframe width="400" height="218" src="https://www.youtube.com/embed/lSZm_kMx5rc"></iframe></div>
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><iframe width="400" height="218" src="https://www.youtube.com/embed/LabrRE5ElCY" frameborder="10"></iframe></div>
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"><iframe width="400" height="218" src="https://www.youtube.com/embed/966FtAH26R0" frameborder="10"></iframe></div>
+        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+          <h2>ASSA ABLOY</h2>
+          <hr>
+          <p>ASSA ABLOY has been impressed with Nagarro's work for us. The quality of Nagarro's development teams and their sense of responsibility for towards our core business objectives has made it possible for ASSA ABLOY to exceed its goals.</p>
+          <p>Ardeshir Nahani, R&D manager,ASSA ABLOY - world's largest lock manufacturer</p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="nav flex-column nav-pills pl-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Lufthansa</a>
+          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Ecova</a>
+          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Mitsubishi Chemicals</a>
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">ASSA ABLOY</a>
+        </div>
+      </div>
+      <div class="card border-dark mb-3 container col-sm-5">
+        <div class="card-header">
+          <h3>Satisfaction Scores</h3>
+        </div>
         <div class="card-body text-dark row">
           <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
+      </div>
     </div>
-  </div>
+
+    <!-- This form is used to read the info of employee -->
     <form class="my-5 bg-light">
       <h4>Join Us</h4>
       <div class="form-row">
@@ -202,28 +225,21 @@
         <label for="inputAddress">Your Specialization</label>
         <input type="text" class="form-control" id="inputAddress" placeholder="Field in which you working">
       </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-   </form>
-  
-  <footer class="bg-light">
-    <hr>
-  <p class="d-inline">Posted by: Hege Refsnes</p>
-  <p class="d-inline">Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
-</footer>  
-</div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <!-- This is to create the footer part of website -->
+    <footer class="bg-light">
+      <hr>
+      <p class="d-inline">Posted by: Hege Refsnes</p>
+      <p class="d-inline">Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+    </footer>
+  </div>
 
-     
-      
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
 </html>
